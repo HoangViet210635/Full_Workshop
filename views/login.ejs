@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title><%= title %></title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1><%= title %></h1>
+    <p>Welcome to <%= title %></p>
+    <form method= "post" action="">
+      <label>Username : </label>
+      <input type="text" placeholder="Enter Username" name="uname" required><br>
+      <label>Password : </label>
+      <input type="password" placeholder="Enter Password" name="pword" required><br>
+      <button type="submit">Login</button><br>
+      <p><%- warn_message %></p>
+    </form>
+  </body>
+</html>
+
+<!-- Wrong username or False Password --> 
