@@ -7,6 +7,7 @@
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
+    "db-migrate-pg": "^1.5.2",
     "debug": "~2.6.9",
     "ejs": "^3.1.9",
     "express": "^4.18.2",
